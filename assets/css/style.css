@@ -48,7 +48,7 @@ nav {
 header {
     width: 100%;
     background: url('../img/ilustracion1.png') right top/45% no-repeat;
-    height: 100vmin;
+    height: 100%;
     margin-bottom: 15vh;
     position: relative;
 }
@@ -62,7 +62,7 @@ header {
 
 .float {
     animation-name: float;
-    animation-duration: 2s;
+    animation-duration: 4s;
     /*animation-delay: 0.2s; */
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(.17, .67, .83, .67);
@@ -73,7 +73,7 @@ header {
         transform: translatey(0px);
     }
     50% {
-        transform: translatey(-10px);
+        transform: translatey(-50px);
     }
     100% {
         transform: translatey(0px);
@@ -90,7 +90,6 @@ header h1 {
 }
 
 header h2 {
-    width: 38%;
     font-weight: 300;
     margin-top: 30px;
 }
