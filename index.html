@@ -173,15 +173,28 @@
 
 
 
-                <form action="">
+                <form action="" onsubmit="return false">
                     <input type="email" name="" id="" placeholder="Write your email here">
-                    <button type="submit">Subscribe</button>
+                    <button onclick="subscribe()">Subscribe</button>
 
 
                 </form>
             </div>
             <p>Created with Love by a WebDesigner <img src="assets\img\love.png" class="pulsing" alt=""> </p>
         </footer>
+
+
+        <div id="newsLetter" class="modal">
+            <div class="modal-content">
+                <div class="container">
+                    &#129395;
+                    <h1>YOUR EMAIL HAS BEEN CONFIRMED.</h1>
+                    <h1>THANKS FOR SUBSCRIBING!</h1>
+                    <p>Now we just need to confirm your email address -please click the link in the email we sent you. Thanks!</p>
+                </div>
+                <button class="close">BACK TO THE DESIGNERCHALLENGE.COM</button>
+            </div>
+        </div>
 
         <script src="assets/js/main.js"></script>
 </body>

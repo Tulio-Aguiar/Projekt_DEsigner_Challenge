@@ -330,3 +330,54 @@ header h2 {
         transform: scale(1);
     }
 }
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*
+    background-color: rgba(64, 64, 64, 0.4);*/
+    background-color: whitesmoke;
+}
+
+.modal-content {
+    font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+    background-color: #fff;
+    margin: 15% auto;
+    width: 55%;
+    padding: 80px;
+    text-align: center;
+    line-height: 3rem;
+    box-shadow: 1px 1px 67px -1px rgba(0, 0, 0, 0.55);
+}
+
+.modal-content>.container>h1 {
+    font-size: 2rem;
+}
+
+.modal-content>.container p {
+    font-size: .9rem;
+}
+
+.close {
+    color: #fff;
+    background-color: blueviolet;
+    font-size: .8rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
